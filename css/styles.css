@@ -19,6 +19,7 @@ body{
     border: 1px solid white;
     margin: 7px 0 15px;
     color: inherit;
+    outline: none;
 }
 
 .add_movie_form h2{
@@ -57,9 +58,6 @@ body{
     width: 47%;
 }
 
-select{
-
-}
 .add_movie_form input[type=submit]{
     width:100px;
     height: 40px;
