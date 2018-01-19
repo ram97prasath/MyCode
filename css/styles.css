@@ -1,0 +1,79 @@
+body{
+    background-color: #442d4b;
+    color: #ffffff;
+}
+
+.add_movie_form{
+    width: 500px;
+    margin: 20px auto;
+}
+
+.add_movie_form input, .add_movie_form textarea, .add_movie_form select{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background: #442d4b;
+    padding: 0 5px;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    margin: 7px 0 15px;
+    color: inherit;
+}
+
+.add_movie_form h2{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
+.add_movie_form label{
+    font-size: 0.9rem;
+}
+
+.add_movie_form select{
+    background: url("../images/downarrow.png") no-repeat right;
+    background-position-x: 95%;
+    background-size: 12px;
+    height: 40px;
+    -webkit-appearance: none;
+    overflow: hidden;
+    border-radius: 0;
+    outline: none;
+}
+
+.add_movie_form select option{
+    background-color: #442d4b; 
+}
+
+.add_movie_form .divide1{
+    float: left;
+    width: 47%;
+}
+
+.add_movie_form .divide2{
+    float: right;
+    width: 47%;
+}
+
+select{
+
+}
+.add_movie_form input[type=submit]{
+    width:100px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: orange;
+    border-radius: 0;
+    color: #ffffff;
+    border: none;
+}
+
+.add_movie_form input[type=text], .add_movie_form input[type=url]{
+    height: 40px;
+}
+
+.add_movie_form textarea{
+    resize: none;
+}
