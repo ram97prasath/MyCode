@@ -15,9 +15,13 @@ body{
     clear: both;
 }
 
-header .logo, footer .logo{
+header .logo{
     width: 200px;
-    margin: 16px 0;
+    margin: 16px 5px;
+}
+
+footer .logo{
+    width: 200px;
 }
 
 header ul{
@@ -37,23 +41,11 @@ header ul li a{
 }
 
 footer{
-    min-height: 40px;
-    padding: 40px;
-    background-color: #000000;
-    bottom: 0;
+    height: 40px;
+    padding: 20px;
     position: absolute;
-}
-
-.facebook{
-    background-image: url("../images/facebook.png");
-}
-
-.twitter{
-    background-image: url("../images/twitter.png");
-}
-
-.instagram{
-    background-image: url("../images/instagram.png");
+    background-color: #000000;
+    position: relative;
 }
 
 .link{

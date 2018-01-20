@@ -32,8 +32,8 @@ $(document).ready(function(){
     function constructDOM(data){
         let content = [];
         for(let i = 0; i < data.length; i++) {
-            let categoryContent = []
-            let categoryDOM = $('<div class="clearfix category"></div>');
+            let categoryContent = [];
+            let categoryDOM = $('<div class="clearfix category">');
             let categoryTitle = $('<h3 class="categoryName">'+data[i].category+'</h3>');
             categoryContent.push(categoryTitle);
 
@@ -90,6 +90,7 @@ $(document).ready(function(){
         reatingWidget +
                 '</div>'+
             '</div>'+
+        '</div>'+
         '</div>';
 
         return reatingWidget;
